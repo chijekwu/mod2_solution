@@ -4,17 +4,27 @@
 	padding: 0;
 }
 h1 {
-  margin-bottom: 15px;
-  p
+  margin: 15px auto;
+  padding: 10px;
+  text-align: center;
+}
+h2 {
+	width: 50px;
+  margin: 10px;
+  padding: 15px 5px;
+  border: 1px solid black;
+  position: relative;
+  top: 0px;
+  font-size: 26px;
 }
 
-div#container {
+div{
   background-color: #00FFFF;
   position: relative;
   top: 60px;
 }
 p {
-  width: 50%;
+  width: 33.3%;
   border: 1px solid black;
   margin-bottom: 15px;
 }
@@ -34,9 +44,7 @@ p {
 }
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-h1 {
-  margin-bottom: 15px;
-}
+
   #p1 {
     width: 50%;
   }
