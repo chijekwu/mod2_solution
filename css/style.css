@@ -1,7 +1,8 @@
 * {
-	box-sizing: content-box;
-	margin: 0;
-	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 0 auto;
 }
 h1 {
   margin: 15px auto;
@@ -9,83 +10,81 @@ h1 {
   text-align: center;
 }
 h2 {
-	width: 50px;
-  margin: 10px;
-  padding: 15px 5px;
+  width: 100px;
+  padding: 10px 5px;
   border: 1px solid black;
+  text-align: center;
   position: relative;
   top: 0px;
-  font-size: 26px;
+  float: right;
+  font-size: 20px;
 }
 
-div{
-  background-color: #00FFFF;
-  position: relative;
-  top: 60px;
-}
 p {
-  width: 33.3%;
-  border: 1px solid black;
-  margin-bottom: 15px;
+	padding: 5px;
 }
+#p1, #p2, #p3 {
+	width: 350px;
+	background: #333;
+	margin: 1px 0;
+	border: 2px solid black;
+	float: left;
+
+}
+
 #p1 {
-  background-color: #A52A2A;
-  position: relative;
-  top: 65px;
-  left: 65px;
+	
+ 	
 }
 #p2 {
-  background-color: #DEB887;
+	
 }
 #p3 {
-  position: absolute;
-  top: 0;
-  left: 0;
+	
 }
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  h2 {
+  	background: pink;
+  }
   #p1 {
-    width: 50%;
+   
   }
   #p2 {
-    width: 100px;
-    height: 100px;
+   
   }
   #p3 {
-  position: absolute;
-  top: 0;
-  left: 0;
+  
 }
 }
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  h2 {
+  	
+  }
   #p1 {
-    width: 50%;
-    float: left;
+    
   }
   #p2 {
-    width: 100px;
-    height: 100px;
+   
   }
   #p3 {
-  position: absolute;
-  top: 0;
-  left: 0;
+  
 	}
 }
 /********** Medium devices only **********/
 @media (max-width: 767px) {
+ h2 {
+  	background: lightyellow;
+ 	
+  }
   #p1 {
-    width: 50%;
+   
   }
   #p2 {
-    width: 100px;
-    height: 100px;
+   
   }
   #p3 {
-  position: absolute;
-  top: 0;
-  left: 0;
+ 
 	}
 }
